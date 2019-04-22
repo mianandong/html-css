@@ -104,10 +104,9 @@
 
 
 #list {
-    width: 800px;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 40px;
+    width: 980px;
+    height: 800px;
+    margin: 40px auto 0px;
     border: 1px solid #38f;
     margin-bottom: 100px;
 }
@@ -148,4 +147,60 @@
 }
 
 /**********************以上是表头样式***********************/
+
+#list .list-content .list-content-left{
+    float: left;
+    width: 640px;
+    height: 100%;
+    padding: 20px;
+}
+
+#list .list-content .list-content-left .list-content-left-header{
+    padding: 5px 10px;
+}
+
+#list .list-content .list-content-left .list-content-left-header a {
+    text-decoration: none;
+}
+
+h4 {
+    font-weight: bolder;
+    color: #555555;
+    font-size: 20px;
+}
+
+#host{
+    margin: 10px 0 10px 0px;
+    font-size: 14px;
+    color: lightgray;
+}
+
+hr {
+    border: 1px solid rgb(240, 240, 240);
+}
+
+#list .list-content .list-content-right{
+    float: left;
+    width: 330px;
+    height: 100%;
+}
+
+.list-content-left-list1 {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.list-content-left-list1 a {
+    text-decoration: none;
+}
+
+.list-content-left-list1 h4{
+    margin-bottom: 20px;
+}
+
+.list-content-left-list1 img {
+    width: 100;
+    height: 132;
+}
+
 
