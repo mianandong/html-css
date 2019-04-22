@@ -108,7 +108,7 @@
     height: 800px;
     margin: 40px auto 0px;
     border: 1px solid #38f;
-    margin-bottom: 100px;
+    margin: 80px auto 100px;
 }
 
 #list .list-header {
@@ -126,7 +126,7 @@
     text-decoration: none;
     float: left;
     font-size: 14px;
-    padding: 0 10px;
+    padding: 0 20px;
     text-align: center;
 }
 
@@ -148,29 +148,26 @@
 
 /**********************以上是表头样式***********************/
 
+#list .list-content {
+    margin: 20px;
+}
+
 #list .list-content .list-content-left{
     float: left;
-    width: 640px;
-    height: 100%;
-    padding: 20px;
 }
 
-#list .list-content .list-content-left .list-content-left-header{
-    padding: 5px 10px;
-}
-
-#list .list-content .list-content-left .list-content-left-header a {
+.list-content-left-header a {
     text-decoration: none;
 }
 
-h4 {
+.list-content-left-header h4 {
     font-weight: bolder;
     color: #555555;
     font-size: 20px;
 }
 
-#host{
-    margin: 10px 0 10px 0px;
+.list-content-left-header p {
+    margin: 10px 0;
     font-size: 14px;
     color: lightgray;
 }
@@ -185,22 +182,59 @@ hr {
     height: 100%;
 }
 
-.list-content-left-list1 {
-    margin: 20px 0;
+.list-content-left-cell1 {
+    margin: 10px 0;
     width: 100%;
 }
 
-.list-content-left-list1 a {
+.list-content-left-cell1 a {
     text-decoration: none;
 }
 
-.list-content-left-list1 h4{
-    margin-bottom: 20px;
+.list-content-left-cell1 a h4{
+    font-weight: bolder;
+    color: #555555;
+    font-size: 20px;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
-.list-content-left-list1 img {
-    width: 100;
-    height: 132;
+.list-content-left-cell1 p{
+    margin: 10px 0;
+    font-size: 14px;
+    color: lightgray;
 }
 
+.list-content-left-cell1 img {
+    width: 181px;
+    height: 118px;
+}
+
+.list-content-left-cell2 {
+    margin-top: 20px;
+}
+
+.list-content-left-cell2 img {
+    width: 181px;
+    height: 118px;
+}
+
+.cell2-left {
+    float: left;
+}
+
+.cell2-right {
+    float: left;
+    margin: 20px;
+}
+
+.cell2-right h3 {
+    width: 360px;
+}
+
+.cell2-right p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: lightgray;
+}
 
