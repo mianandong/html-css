@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*设置margin padding时不改变元素大小，而是向内挤压*/
+    box-sizing: border-box;
+}
+
+#header {
+    border: 1px solid #999999;
+    height: 33px;
+    color: #555555;
+}
+
+#header .header-left{
+    float: left;
+    font-size: 12px;
+    line-height: 33px;
+    margin-left: 10px;
+}
+
+#header .header-left span{
+    margin-left: 5px;
+}
+
+#header .header-left .header-left-geli{
+    margin-left: 10px;
+}
+
+#header .header-left a{
+    margin-right: 10px;
+    color: #555555;
+}
+
+#header .header-right{
+    float: right;
+    line-height: 33px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#header .header-right a{
+    color: #555555;  
+    margin-left: 15px;  
+}
+
+#header .header-right .more-pro{
+    /*设置为行内块级，就可以为元素设置宽高了*/
+    display: inline-block;
+    height: 100%;
+    width: 85px;
+    background-color: #398bfb;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+

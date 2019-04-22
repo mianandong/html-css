@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*设置margin padding时不改变元素大小，而是向内挤压*/
+    box-sizing: border-box;
+}
+
+#header {
+    border: 1px solid #999999;
+    height: 33px;
+    color: #555555;
+}
+
+#header .header-left{
+    float: left;
+    font-size: 12px;
+    line-height: 33px;
+    margin-left: 10px;
+}
+
+#header .header-left span{
+    margin-left: 5px;
+}
+
+#header .header-left .header-left-geli{
+    margin-left: 10px;
+}
+
+#header .header-left a{
+    margin-right: 10px;
+    color: #555555;
+}
+
+#header .header-right{
+    float: right;
+    line-height: 33px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#header .header-right a{
+    color: #555555;  
+    margin-left: 15px;  
+}
+
+#header .header-right .more-pro{
+    /*设置为行内块级，就可以为元素设置宽高了*/
+    display: inline-block;
+    height: 100%;
+    width: 85px;
+    background-color: #398bfb;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/**********************以上是头部样式***********************/
+
+#content-center {
+    margin: 80px auto 0px;
+}
+
+#content-center .content-center-logo{
+    text-align: center;
+}
+
+#content-center .content-center-logo img{
+    width: 270px;
+    height: 129px;
+}
+
+#content-center .content-search {
+    margin: 15px auto 0px;
+    height: 40px;
+    text-align: center;
+}
+
+#content-center .content-search .input-content {
+    width: 536px;
+    height: 100%;
+    /* 获得焦点时，就不会有自带的阴影了 */
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#content-center .content-search .input-content:focus {
+    border: 1px solid #38f;
+}
+
+#content-center .content-search .submit-content {
+    width: 96px;
+    height: 100%;
+    background-color: #398bfb;
+    border: none;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    vertical-align: top;
+    margin-left: -8px;
+}
+
+/**********************以上是搜索样式***********************/
+
+
+#list {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #38f;
+    margin-bottom: 100px;
+}
+
+#list .list-header {
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #38f;
+}
+
+#list .list-header .list-header-left {
+    float: left;
+    line-height: 40px;
+}
+
+#list .list-header .list-header-left a{
+    text-decoration: none;
+    float: left;
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+#list .list-header .list-header-left a:hover {
+    background-color: lightgray;
+}
+
+#list .list-header .list-header-right {
+    float: right;
+    line-height: 36px;
+}
+
+#list .list-header .list-header-right img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/**********************以上是表头样式***********************/
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="唐宁,仙女">
+    <title>唐宁的主页</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        #title {
+            width: 70%;
+            height: 80px;
+            /*让div水平居中*/
+            margin: 0 auto;
+            /*让内部的文字竖直居中*/
+            line-height: 80px;
+            /*让内部的文字水平居中*/
+            text-align: center;
+
+            font-size: 40px;
+            color: gold;
+        }
+
+        .hezhao{
+            text-align: center;
+            background-color: aqua;
+            height: 60px;
+            line-height: 60px;
+        }
+
+        .hezhao h2{
+            margin: 0;
+        }
+
+        .hezhao_photo{
+            text-align: center;
+            height: 682px;
+            background-color: palevioletred;
+        }
+
+        .tangning {
+            text-align: center;
+            width: 100%;
+
+            background-color: cadetblue;
+        }
+
+        .trans_img {
+            transform:rotate(90deg);
+            -ms-transform:rotate(90deg); /* Internet Explorer */
+            -moz-transform:rotate(90deg); /* Firefox */
+            -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+            width: 400px;
+            height: 300px;
+
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header id="hearder">
+        <div id="title">
+            唐宁的小屋
+        </div>
+    </header>
+
+    <article>
+        <div class="hezhao">
+            <h2>我们两的合照</h2>
+        </div>
+        <div class="hezhao_photo">
+            <img src="images/center.jpeg" alt="">
+        </div>
+        <div class="hezhao">
+            <h2>美丽的唐宁</h2>
+        </div>
+
+        <div class="tangning">
+            <img class="trans_img" src="images/baner2.jpeg" alt="">
+            <img class="trans_img" src="images/baner3.jpeg" alt="">
+            <img class="trans_img" src="images/baner4.jpeg" alt="">
+        </div>
+    </article>
+</body>
+</html>
