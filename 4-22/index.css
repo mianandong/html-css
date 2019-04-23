@@ -7,6 +7,7 @@
 
 #header {
     border: 1px solid #999999;
+    border-top: none;
     height: 33px;
     color: #555555;
 }
@@ -105,7 +106,7 @@
 
 #list {
     width: 980px;
-    height: 800px;
+    height: 530px;
     margin: 40px auto 0px;
     border: 1px solid #38f;
     margin: 80px auto 100px;
@@ -239,3 +240,37 @@ hr {
 }
 
 /**********************以上是左侧新闻样式***********************/
+
+.list-content-right {
+    margin-left: 20px;
+}
+
+.list-content-right .header{
+    height: 40px;
+}
+
+.list-content-right a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.list-content-right .header .header-left {
+    float: left;
+}
+
+.list-content-right .header .header-right {
+    float: right;
+}
+
+.list-content-right .body li{
+    float: left;
+    width: 130px;
+    list-style: none;
+    margin: 10px 15px;
+    color: rgb(51, 51, 51);
+}
+
+.list-content-right .body li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
