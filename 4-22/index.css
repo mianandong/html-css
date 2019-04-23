@@ -47,7 +47,6 @@
 #header .header-right .more-pro{
     /*设置为行内块级，就可以为元素设置宽高了*/
     display: inline-block;
-    height: 100%;
     width: 85px;
     background-color: #398bfb;
     text-align: center;
@@ -107,7 +106,6 @@
 #list {
     width: 980px;
     height: 530px;
-    margin: 40px auto 0px;
     border: 1px solid #38f;
     margin: 80px auto 100px;
 }
@@ -137,7 +135,7 @@
 
 #list .list-header .list-header-right {
     float: right;
-    line-height: 36px;
+    line-height: 40px;
 }
 
 #list .list-header .list-header-right img {
