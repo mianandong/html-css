@@ -97,7 +97,7 @@ body {
 #footer .footer-content a {
     float: left;
     line-height: 80px;
-    margin-left: 70px;
+    margin-left: 10%;
 }
 
 #footer .footer-content a img {
